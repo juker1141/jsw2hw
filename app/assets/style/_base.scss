@@ -19,8 +19,10 @@
 .fz_36 {
   font-size: 36px;
 }
-.fz_72 {
-  font-size: 72px;
+.fz_md_72 {
+  @include media-breakpoint-up(md) {
+    font-size: 72px;
+  }
 }
 .listStyle_none {
   list-style: none;
