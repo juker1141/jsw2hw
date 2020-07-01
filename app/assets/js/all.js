@@ -21,15 +21,15 @@ const obj = {
     let str = "";
     products.forEach(function (item) {
       str += `
-      <div class="card rounded">
+      <div class="card rounded mb-5">
         <div class="card_img card-img-top rounded-top"
               style="background: url(${item.imageUrl});">
         </div>
         <div class="card-body pt-3 pb-2">
           <h5 class="card-title m-0">${item.title}</h5>
           <p class="card-text text-right mb-2">
-            <s class="text-gray-2 fz_14">${item.origin_price}</s><br>
-            ${item.price}
+            <s class="text-gray-2 fz_14">$${item.origin_price}</s><br>
+            $${item.price}
           </p>
           <div class="btn btn-success w-100">Add to cart</div>
         </div>
