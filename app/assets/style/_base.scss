@@ -19,6 +19,11 @@
 .fz_36 {
   font-size: 36px;
 }
+.fz_md_36 {
+  @include media-breakpoint-up(md) {
+    font-size: 36px;
+  }
+}
 .fz_md_72 {
   @include media-breakpoint-up(md) {
     font-size: 72px;
