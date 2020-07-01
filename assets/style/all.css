@@ -12479,6 +12479,12 @@ a.text-gray-2:hover, a.text-gray-2:focus {
 }
 
 @media (min-width: 768px) {
+  .fz_md_36 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 768px) {
   .fz_md_72 {
     font-size: 72px;
   }
