@@ -12478,8 +12478,10 @@ a.text-gray-2:hover, a.text-gray-2:focus {
   font-size: 36px;
 }
 
-.fz_72 {
-  font-size: 72px;
+@media (min-width: 768px) {
+  .fz_md_72 {
+    font-size: 72px;
+  }
 }
 
 .listStyle_none {
