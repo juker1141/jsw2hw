@@ -31,7 +31,7 @@ const obj = {
             <s class="text-gray-2 fz_14">$${item.origin_price}</s><br>
             $${item.price}
           </p>
-          <div class="btn btn-success w-100">Add to cart</div>
+          <div class="btn btn-success w-100 py-3">Add to cart</div>
         </div>
       </div>`;
     });
